@@ -119,13 +119,13 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
-
+.pyd
 # Cython debug symbols
 cython_debug/
-*.Include/
-*.Lib/
-*.Scripts/
-*.share/
+Include/*
+Lib/*
+Scripts/*
+share/*
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
@@ -170,3 +170,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python
+
